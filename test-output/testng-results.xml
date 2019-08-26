@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15264" started-at="2019-06-16T14:22:03Z" finished-at="2019-06-16T14:22:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15264" started-at="2019-06-16T14:22:03Z" finished-at="2019-06-16T14:22:18Z">
+      <class name="com.primusbank.tests.BankerLoginDataDriver">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.primusbank.tests.BankerLoginDataDriver@c038203]" name="launchApp" is-config="true" duration-ms="13246" started-at="2019-06-16T14:21:50Z" finished-at="2019-06-16T14:22:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="bankerLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.primusbank.tests.BankerLoginDataDriver@c038203]" name="bankerLogin" duration-ms="12325" started-at="2019-06-16T14:22:04Z" data-provider="testData" finished-at="2019-06-16T14:22:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tirupati]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rams]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rams]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankerLogin -->
+        <test-method status="PASS" signature="bankerLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.primusbank.tests.BankerLoginDataDriver@c038203]" name="bankerLogin" duration-ms="851" started-at="2019-06-16T14:22:16Z" data-provider="testData" finished-at="2019-06-16T14:22:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tirupati]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rams]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ram123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankerLogin -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.primusbank.tests.BankerLoginDataDriver@c038203]" name="closeApp" is-config="true" duration-ms="728" started-at="2019-06-16T14:22:17Z" finished-at="2019-06-16T14:22:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.primusbank.tests.BankerLoginDataDriver -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
